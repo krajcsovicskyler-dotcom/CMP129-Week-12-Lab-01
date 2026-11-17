@@ -5,10 +5,10 @@
       "type": "java",
       "name": "Run CMP129 JavaFX",
       "request": "launch",
-      "mainClass": "LabLauncher",
+      "mainClass": "JavaFXInstallTest",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
-      "vmArgs": "--module-path \"C:/REPLACE-WITH-YOUR-JAVAFX-SDK/lib\" --add-modules javafx.controls"
+      "vmArgs": "--module-path \"C:/Users/krajcsovics.kyler/Downloads/openjfx-27.0.1_windows-x64_bin-sdk/javafx-sdk-27.0.1/lib\" --add-modules javafx.controls"
     }
   ]
 }
