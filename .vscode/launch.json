@@ -3,9 +3,16 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CalculatorApp",
+      "request": "launch",
+      "mainClass": "CalculatorApp",
+      "projectName": "cmp129-week12-lab01"
+    },
+    {
+      "type": "java",
       "name": "Run CMP129 JavaFX",
       "request": "launch",
-      "mainClass": "JavaFXInstallTest",
+      "mainClass": "CalculatorApp",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "vmArgs": "--module-path \"C:/Users/krajcsovics.kyler/Downloads/openjfx-27.0.1_windows-x64_bin-sdk/javafx-sdk-27.0.1/lib\" --add-modules javafx.controls"
